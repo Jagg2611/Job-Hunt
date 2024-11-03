@@ -1,0 +1,53 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v22.2.0
+3 silly config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\ajmee\Desktop\JobHunt-MernStack\backend\.npmrc
+5 silly config:load:file:C:\Users\ajmee\.npmrc
+6 silly config:load:file:C:\Users\ajmee\Desktop\JobHunt-MernStack\backend\%APPDATA%\npm\etc\npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:C:\Users\ajmee\Desktop\JobHunt-MernStack\backend\%LOCALAPPDATA%\npm-cache\_logs\2024-10-31T06_02_23_798Z-
+10 verbose logfile C:\Users\ajmee\Desktop\JobHunt-MernStack\backend\%LOCALAPPDATA%\npm-cache\_logs\2024-10-31T06_02_23_798Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly logfile done cleaning log files
+13 verbose stack Error: kill EPERM
+13 verbose stack     at ChildProcess.kill (node:internal/child_process:512:26)
+13 verbose stack     at process.handleSignal (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\signal-manager.js:14:10)
+13 verbose stack     at process.emit (node:events:520:28)
+14 verbose pkgid jobhunt@1.0.0
+15 verbose cwd C:\Users\ajmee\Desktop\JobHunt-MernStack\backend
+16 verbose Windows_NT 10.0.22631
+17 verbose node v22.2.0
+18 verbose npm  v10.7.0
+19 error code EPERM
+20 error syscall kill
+21 error path C:\Users\ajmee\Desktop\JobHunt-MernStack\backend
+22 error errno -4048
+23 error Error: kill EPERM
+23 error     at ChildProcess.kill (node:internal/child_process:512:26)
+23 error     at process.handleSignal (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\signal-manager.js:14:10)
+23 error     at process.emit (node:events:520:28) {
+23 error   errno: -4048,
+23 error   code: 'EPERM',
+23 error   syscall: 'kill',
+23 error   cmd: 'C:\\WINDOWS\\system32\\cmd.exe',
+23 error   args: [ '/d', '/s', '/c', 'nodemon index.js' ],
+23 error   stdout: null,
+23 error   stderr: null,
+23 error   event: 'dev',
+23 error   script: 'nodemon index.js',
+23 error   pkgid: 'jobhunt@1.0.0',
+23 error   path: 'C:\\Users\\ajmee\\Desktop\\JobHunt-MernStack\\backend'
+23 error }
+24 error
+24 error The operation was rejected by your operating system.
+24 error It's possible that the file was already in use (by a text editor or antivirus),
+24 error or that you lack permissions to access it.
+24 error
+24 error If you believe this might be a permissions issue, please double-check the
+24 error permissions of the file and its containing directories, or try running
+24 error the command again as root/Administrator.
+25 verbose exit -4048
+26 verbose code -4048
+27 error A complete log of this run can be found in: C:\Users\ajmee\Desktop\JobHunt-MernStack\backend\%LOCALAPPDATA%\npm-cache\_logs\2024-10-31T06_02_23_798Z-debug-0.log
